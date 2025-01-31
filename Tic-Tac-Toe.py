@@ -7,16 +7,16 @@ class TicTacToeGUI:
         # Configure window
         self.window = tk.Tk()
         self.window.title("Tic-Tac-Toe")
-        self.window.configure(bg='#2C3E50')  # Dark blue-gray background
+        self.window.configure(bg='#2C3E50')
         
         # Color scheme
         self.colors = {
-            'bg_primary': '#2C3E50',     # Dark blue-gray
-            'bg_secondary': '#34495E',   # Slightly lighter blue-gray
-            'text_primary': '#ECF0F1',   # Light gray-white
-            'x_color': '#3498DB',        # Bright blue for X
-            'o_color': '#E74C3C',        # Bright red for O
-            'button_hover': '#95A5A6',   # Gray for hover effect
+            'bg_primary': '#2C3E50',   
+            'bg_secondary': '#34495E',   
+            'text_primary': '#ECF0F1',   
+            'x_color': '#3498DB',      
+            'o_color': '#E74C3C',       
+            'button_hover': '#95A5A6',  
         }
         
         # Initialize game variables
